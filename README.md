@@ -5,7 +5,8 @@ Public dotfiles shared across multiple machines.
 ## Setup
 
 ```bash
-ln -snf ~/workspace-macmini/dotfiles-pub/tmux/.tmux.conf ~/.tmux.conf
+# Clone this repo, then create symlinks:
+ln -snf /path/to/dotfiles-pub/tmux/.tmux.conf ~/.tmux.conf
 ```
 
 ## Contents
