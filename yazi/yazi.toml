@@ -1,0 +1,15 @@
+# =============================================================================
+# yazi メイン設定
+# =============================================================================
+# セットアップ: ln -sf ~/workspace-macmini/dotfiles-pub/yazi ~/.config/yazi
+
+[mgr]
+show_hidden = true        # 隠しファイル表示
+sort_by = "natural"       # 自然順ソート (1, 2, 10 の順)
+sort_dir_first = true     # ディレクトリを先に表示
+linemode = "size"         # 右端に表示する情報: size, mtime, permissions, none
+ratio = [1, 2, 4]         # 親:現在:プレビュー の幅比率 (デフォルト: [1, 4, 3])
+
+[preview]
+max_width = 1000
+max_height = 1000
